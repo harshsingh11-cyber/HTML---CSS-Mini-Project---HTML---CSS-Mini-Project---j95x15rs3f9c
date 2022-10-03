@@ -173,16 +173,65 @@ word-spacing: 4px;
 .skills{
     background-color: rgb(7, 7, 7);
     width: 100%;
-    height: 600px;
+    height: 900px;
     opacity: .9;
-   
+   margin: 0%;
 }
 .abc{
     font-size: 100px;
     color: azure;
     text-shadow: rgb(241, 111, 111) 3px 3px;
-margin-left: 800px;
-padding-top: 30px;
+    margin-left: 800px;
+    padding-top: 30px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    
+}
+.skl{
+    color: antiquewhite;
+    display: flex;
+    width: 100%;
+}
+/* .blocks{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(4,1fr);
+    margin: 2rem 2rem 2rem 13rem;
+    padding: 10px 10px;
+} */
+
+.box img{
+    width: 150px;
+    height: 150px;
+}
+.vv{
+    margin-left: 400px;
+}
+.box{
+    padding: 40px 50px;
+}
+/* .box img:hover{
+    width: 100vh;
+    height: 100vh;
+} */
+.project{
+    background-color: rgb(7, 7, 7);
+    width: 100%;
+    height: 900px;
+    opacity: .9;
+   margin: 0%;
+}
+.pro{
+    display: flex;
+    width: 100%;
+    margin-top: 60px;
+}
+.pro .first-col{
+width: 50%;
+margin-left: 200px;
+}
+.pro .first-row{
+    width: 600px;
+    height: 300px;
+    background-color: blue;
+    border-radius: 10px;
+   
 }
