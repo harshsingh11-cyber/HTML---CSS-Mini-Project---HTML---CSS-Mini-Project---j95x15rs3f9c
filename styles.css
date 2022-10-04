@@ -6,23 +6,31 @@ padding: 0%;
 .header-h{
     text-align: center;
     background-color: black;
+    color: aliceblue;
+    width: 100%;
     height: 80px;
+    position: relative;
+    
 }
+
 .hed{
     padding-top: 25px;
+    color: aliceblue;
 }
-a{
+.heds{
     margin: 10px 25px;
     text-decoration: none;
-    color: antiquewhite;
+    color: rgb(106, 183, 235);
     padding: 10px 10px;
     font-size: 20px;
+    
 }
 .home-a{
     background-image: url(./image/bl-7.webp);
     width: 100%;
     height: 900px;
     opacity: 0.9;
+    
 }
 .home-b{
     display: flex;
@@ -182,13 +190,15 @@ word-spacing: 4px;
     color: azure;
     text-shadow: rgb(241, 111, 111) 3px 3px;
     margin-left: 800px;
-    padding-top: 30px;
+    padding-top: 80px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
 }
 .skl{
     color: antiquewhite;
     display: flex;
     width: 100%;
+    padding-bottom: 50px;
 }
 /* .blocks{
     display: grid;
@@ -204,6 +214,7 @@ word-spacing: 4px;
 }
 .vv{
     margin-left: 400px;
+    padding-bottom: 50px;
 }
 .box{
     padding: 40px 50px;
@@ -234,4 +245,57 @@ margin-left: 200px;
     background-color: blue;
     border-radius: 10px;
    
+}
+
+#foote .foot{
+    display: flex;
+    width: 100%;
+    height: 40px;
+    background-color: rgb(194, 223, 223);
+}
+
+#foote .foot-a{
+    width: 50%;
+}
+
+ul{
+    display: inline;
+    float: left;
+}
+
+ul a{
+    display: inline-block;
+    width: 50px;
+    text-align: center;
+    padding-top: 10px;
+}
+.ul{
+    margin-left: 300px;
+}
+i {
+	font-size: 20px;
+	color: #000;
+	align-self: center;
+	transition: color 500ms;
+}
+.fa-envelope:hover {
+	color: #ffffff;
+}
+.fa-twitter-square:hover {
+	color: #126bf0;
+}
+.fa-linkedin:hover {
+	color: #1114d1;
+}
+.fa-instagram:hover {
+	color: #df2416;
+}
+.copy{
+    font-size: 20px;
+	color: rgb(12, 12, 12);
+	align-self: center;
+	transition: color 500ms;
+    padding-top: 10px;
+    padding-left: 200px;
+    overflow: hidden;
 }
