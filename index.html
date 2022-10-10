@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" href="icon.ico" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
-    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 </head>
 
 <body>
@@ -19,17 +19,17 @@
         <nav>
             <div class="header-h">
                 <div class="hed">
-                    <a class="heds" href="">Home</a>
-                    <a class="heds" href="">About</a>
-                    <a class="heds" href="">Education</a>
-                    <a class="heds" href="">Skills</a>
-                    <a class="heds" href="">Projects</a>
-                    <a class="heds" href=""></a>
+                    <a class="heds" href="#home">Home</a>
+                    <a class="heds" href="#about">About</a>
+                    <a class="heds" href="#education">Education</a>
+                    <a class="heds" href="#skills">Skills</a>
+                    <a class="heds" href="#project">Projects</a>
+                    <a class="heds" href="#contact">Contact</a>
                 </div>
             </div>
         </nav>
     </header>
-    <div class="home-a">
+    <div class="home-a" id="home">
         <div class="home-b">
             <div class="part1">
                 <h3 class="ha-1">Hey, I'm Harsh! 👋</h3>
@@ -38,7 +38,7 @@
                     I am a passionate Full Stack Web Developer who focuses on writing clean and user-friendly
                     applications using MERN and some other cool libraries and frameworks.
                 </p>
-                <button id="btn"><a class="btn-1" href="#">Resume</a></button>
+                <button id="btn"><a class="btn-1 heds" href="#">Resume</a></button>
             </div>
             <div class="part2">
                 <div class="images">
@@ -47,7 +47,7 @@
             </div>
         </div>
     </div>
-    <div class="about">
+    <div class="about" id="about">
         <p class="aa">About</p>
         <div class="about-a">
             <h4 class="name-a">
@@ -70,7 +70,7 @@
         </div>
     </div>
     <hr style="color: yellow;">
-    <div class="educate">
+    <div class="educate" id="education">
         <p class="ab" id="xys">Education</p>
         <div class="content-a">
             <div class="flam">
@@ -100,7 +100,7 @@
 
                     </p>
                     <p class="cgpa">
-                        75%
+                        85%
                     </p>
                 </div>
                 <div class="year">
@@ -124,7 +124,7 @@
         </div>
     </div>
     <hr style="color: rgb(70, 70, 47);">
-    <div class="skills">
+    <div class="skills" id="skills">
         <p class="abc">Skills</p>
         <div class="skl">
             <p class="vv">
@@ -132,80 +132,169 @@
                 <div class="box box1"><img src="./image/html5.png" alt="this image is loaded"></div>
                 <div class="box box2"><img src="./image/css3.png" alt="this image is loaded"></div>
                 <div class="box box3"><img src="./image/bootstrap.png" alt="this image is loaded"></div>
-
             </div>
             <div class="blocks">
                 <div class="box box4"><img src="./image/java-script (1).png" alt="this image is loaded"></div>
                 <div class="box box5"><img src="./image/java (1).png" alt="this image is loaded"></div>
                 <div class="box box6"><img src="./image/react.png" alt="this image is loaded"></div>
-
-
             </div>
             <div class="blocks">
                 <div class="box box7"><img src="./image/git.png" alt="this image is loaded"></div>
                 <div class="box box8"><img src="./image/github.png" alt="this image is loaded"></div>
                 <div class="box box9"><img src="./image/nodejs.png" alt="this image is loaded"></div>
-
-
             </div>
             <div class="fourth blocks">
                 <div class="box box11"><img src="./image/mysql.png" alt="this image is loaded"></div>
                 <div class="box box12"><img src="./image/redux.png" alt="this image is loaded"></div>
                 <div class="box box13"><img src="./image/html5-1.png" alt="this image is loaded"></div>
-
             </div>
             </p>
-
         </div>
     </div>
     <hr style="color: rgb(49, 49, 38);">
 
-    <div class="project">
+    <div class="project" id="project">
         <p class="abc">Projects</p>
 
         <div class="pro">
             <div class="first-col">
                 <div class="first-row">
-
+                    <div class="first-1">
+                        <img src="./image/Screenshot -1.png">
+                    </div>
+                    <div class="pro-1">
+                        <h1 class="x-1">Drum-Set</h1>
+                        <p class="procon">The point of this project is to have each key, when pressed, make a corresponding drum noise..
+                            I completed this project earlier in my JavaScript learning phase. </p>
+                        <p class="lang">Created Using :- HTML, CSS, JavaScript....
+                        </p>
+                        <button class="btn"><a href="https://harshsingh11-cyber.github.io/DramSet-master/" target="_blank">Website -
+                            </a><i class="fab fa-internet-explorer"></i></button>
+                        <button class="btn"><a href="https://github.com/harshsingh11-cyber/DramSet-master" target="_blank">Source-Code
+                                <i class="fab fa-github">
+                                </i></a></button>
+                    </div>
                 </div>
-
             </div>
             <div class="second-col">
                 <div class="first-row">
-
+                    <div class="first-1">
+                        <img src="./image/Screenshot-2.png">
+                    </div>
+                    <div class="pro-2">
+                        <h1 class="x-2">Image-Slider</h1>
+                        <p class="procon-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim distinctio at
+                            vitae quam. Iusto
+                            tenetur, facilis necessitatibus laudantium odio quia praesentium?</p>
+                        <p class="lang-1">
+                            Created Using :- HTML, CSS, BootStrap, JavaScript....
+                        </p>
+                        <button class="btn-1"><a href="#">Website -
+                            </a><i class="fab fa-internet-explorer"></i></button>
+                        <button class="btn-1"><a href="#">Source-Code
+                                <i class="fab fa-github">
+                                </i></a></button>
+                    </div>
                 </div>
-
             </div>
         </div>
 
     </div>
     <hr style="color: rgb(53, 53, 40);">
+    <div class="contact" id="contact">
+        <div class="lets">
+            <p class="mm" id="mm">Let's  Cnnect:</p>
+        </div>
+        <div class="contact-1">
+            <div class="f-1">
+                <div class="mail">
+                   <span>
+                        <div class="li-1">
+                           <h3>Have a question?</h3> 
+                            <p>I am here to help you.</p>
+                            
+                            <p>Email me at</p>
+                            <span><a href="mailto: hchouhan689@gmail.com" target="_blank">
+                                <i class="fas fa-envelope xc-1">
+                                </i></a></span>
+                            
+                        </div>
+                    </span>
+                </div>
+                <div class="loca">
+                    <div class="lov">
+                    <h3>Current Location</h3>
+                    <p>Raipur, Chhattisgrah</p>
+                    <p>Serving clients worldwide</p>
+                    <span><i class="fa fa-map-marker xc-1" aria-hidden="true"></i></span>
+                    
+                </div>
+            </div>
+            </div>
+            <div class="s-1">
+                <div class="in">
+                   <span> 
+                    <label for="name-1"></label>
+                    <input type="text" id="name-1" placeholder="Name">
+
+                    <label for="email"></label>
+                    <input type="email" id="email" placeholder="Email">
+                </span>
+                </div>
+                <div class="in-1">
+                    <label for="subject"></label>
+                    <input type="text" id="subject" placeholder="Subject">
+                </div>
+                <div class="mass">
+                    <label for="massage"></label>
+                    <input type="text" id="massage" placeholder=" Your Massage">
+
+                </div>
+                <div class="btm">
+                    <button class="bt" id="btn-1">Send Massage</button>
+                </div>
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
 
     <footer id="foote">
         <div class="foot">
             <div class="foot-a">
-               
+
                 <ul class="ul">
 
                     <a href="mailto: hchouhan689@gmail.com" target="_blank">
-                      <i class="fas fa-envelope">
-                      </i></a>
+                        <i class="fas fa-envelope">
+                        </i></a>
                     <a href="https://github.com/harshsingh11-cyber" target=" _blank">
-                      <i class="fab fa-github">
-                      </i>
+                        <i class="fab fa-github">
+                        </i>
                     </a>
-            
+
                     <a href="https://instagram.com/harsh_chauhan.11" target=" _blank">
-                      <i class="fab fa-instagram">
-                      </i>
+                        <i class="fab fa-instagram">
+                        </i>
                     </a>
-            
                     <a href="https://www.linkedin.com/in/harsh-singh-chouhan-40aa7a1ab" target=" _blank">
-                      <i class="fab fa-linkedin">
-                      </i>
+                        <i class="fab fa-linkedin">
+                        </i>
                     </a>
-            
-                  </ul>
+
+                </ul>
             </div>
             <div class="foot-b">
                 <p class="copy"> Copyright &copy; 2022 || Harsh ||. All rights reserved.</p>

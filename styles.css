@@ -5,12 +5,10 @@ padding: 0%;
 }
 .header-h{
     text-align: center;
-    background-color: black;
-    color: aliceblue;
+    background-color: #111010;
+    color: rgb(230, 219, 219);
     width: 100%;
     height: 80px;
-    position: relative;
-    
 }
 
 .hed{
@@ -20,17 +18,18 @@ padding: 0%;
 .heds{
     margin: 10px 25px;
     text-decoration: none;
-    color: rgb(106, 183, 235);
+    color: rgb(243, 247, 250);
     padding: 10px 10px;
     font-size: 20px;
     
 }
+
+
 .home-a{
     background-image: url(./image/bl-7.webp);
     width: 100%;
     height: 900px;
-    opacity: 0.9;
-    
+    opacity: 0.8; 
 }
 .home-b{
     display: flex;
@@ -86,11 +85,12 @@ padding: 0%;
 }
 
 .about{
-    background-color: rgb(7, 7, 7);
+    background-color: #252525;
     width: 100%;
     height: 600px;
     opacity: .9;
-    padding-bottom: 100px;
+    padding-bottom: 150px;
+    padding-top: 150px;
     
     
 }
@@ -129,11 +129,12 @@ word-spacing: 4px;
     word-spacing: 4px;
 }
 .educate{
-    background-color: rgb(7, 7, 7);
+    background-color:#252525;
     width: 100%;
     height: 600px;
     opacity: .9;
-    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-top: 150px;
 
 }
 .qa{
@@ -179,11 +180,13 @@ word-spacing: 4px;
 }
 
 .skills{
-    background-color: rgb(7, 7, 7);
+    background-color: #252525;
     width: 100%;
     height: 900px;
     opacity: .9;
-   margin: 0%;
+    margin: 0%;
+    padding-top: 10px;
+    padding-bottom: 50px;
 }
 .abc{
     font-size: 100px;
@@ -192,6 +195,7 @@ word-spacing: 4px;
     margin-left: 800px;
     padding-top: 80px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-bottom: 20px;
 
 }
 .skl{
@@ -224,34 +228,49 @@ word-spacing: 4px;
     height: 100vh;
 } */
 .project{
-    background-color: rgb(7, 7, 7);
+    background-color: #312f2f;
     width: 100%;
     height: 900px;
     opacity: .9;
-   margin: 0%;
+    margin: 0%;
+    padding-top: 20px;
+    padding-bottom: 30px;
 }
+
 .pro{
     display: flex;
     width: 100%;
+    height: auto;
     margin-top: 60px;
 }
 .pro .first-col{
 width: 50%;
 margin-left: 200px;
 }
+.pro .second-col{
+    width: 50%;
+    margin-left: 200px;
+    }
 .pro .first-row{
+    /* background-image: url(./image/Screenshot\ -1.png); */
     width: 600px;
     height: 300px;
-    background-color: blue;
     border-radius: 10px;
-   
 }
+.first-1 img{
+    width: 600px;
+    height: 300px;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+
 
 #foote .foot{
     display: flex;
     width: 100%;
     height: 40px;
-    background-color: rgb(194, 223, 223);
+    background-color: rgb(133, 153, 153);
 }
 
 #foote .foot-a{
@@ -281,6 +300,9 @@ i {
 .fa-envelope:hover {
 	color: #ffffff;
 }
+.fa-map-marker:hover {
+	color: #ffffff;
+}
 .fa-twitter-square:hover {
 	color: #126bf0;
 }
@@ -290,6 +312,12 @@ i {
 .fa-instagram:hover {
 	color: #df2416;
 }
+.pro-1{
+    color: rgb(218, 173, 173);
+}
+.pro-1 .procon{
+    color: rgb(7, 1, 1);
+}
 .copy{
     font-size: 20px;
 	color: rgb(12, 12, 12);
@@ -298,4 +326,208 @@ i {
     padding-top: 10px;
     padding-left: 200px;
     overflow: hidden;
+}
+
+.first-col .pro-1{
+    margin: 40px 0px;
+    font-size: 20px;
+   
+}
+
+.procon{
+    font-size: 20px;
+    font-weight: 600;
+    justify-content: right;
+    color: rgb(8, 8, 8);
+}
+
+.second-col .pro-1{
+    margin: 5px 0px;
+    font-size: 20px;
+   
+}
+.x-1{
+    padding: 5px 0px; 
+}
+.lang{
+    font-size: 15px;
+    padding: 15px 1px;
+    color: #f1c874;
+}
+.btn{
+    width: 150px;
+    height: 40px;
+    border: 2px solid black;
+    margin: 1px 15px;
+    background-color: rgb(248, 246, 246);
+    color: rgb(29, 25, 25);
+    text-decoration: none;
+    border-radius: 15px;
+}
+
+.btn a{
+    color: rgb(14, 13, 13);
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 800;
+}
+i {
+	font-size: 20px;
+	color: #000;
+	align-self: center;
+	transition: color 500ms;
+}
+
+.pro-2 .btn-1{
+    width: 150px;
+    height: 40px;
+    border: 2px solid black;
+    margin: 1px 15px;
+    background-color: rgb(248, 246, 246);
+    color: rgb(29, 25, 25);
+    text-decoration: none;
+    border-radius: 15px;
+}
+.btn-1 a{
+    color: rgb(14, 13, 13);
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 800;
+}
+.pro-2{
+    color: rgb(218, 173, 173);
+}
+.x-2{
+    padding: 5px 0px; 
+}
+.lang-1{
+    font-size: 15px;
+    padding: 15px 1px;
+    color: #f1c874;
+}
+.second-col .pro-2{
+    margin: 40px 0px;
+    font-size: 20px;
+   
+}
+
+.procon-1{
+    font-size: 20px;
+    font-weight: 600;
+    justify-content: right;
+    color: rgb(8, 8, 8);
+}
+.contact{
+    background-color: #312f2f;
+    opacity: .9;
+    padding-top: 100px;
+    padding-bottom: 90px;
+}
+.mm{
+    padding: 20px 10px;
+}
+.contact .contact-1{
+    display: flex;
+    width: 800px;
+    height: 600px; 
+    background-color: #413636;
+    margin-left: 500px;
+    border-radius: 20px;
+}
+.contact-1 .f-1{
+    width: 300px;
+    height: auto;
+    background-color: #413636;
+}
+
+.contact-1 .s-1{
+    text-align: center;
+    padding-top: 100px;
+}
+.contact-1 .f-1{
+    text-align: center;
+    padding-top: 150px;
+}
+.li-1 h3{
+    font-size: 23px;
+    padding: 10px 10px;
+}
+.li-1 p{
+    font-size: 18px;
+}
+.in{
+    margin-left: 20px;
+}
+#name-1{
+    margin: 20px 10px;
+    width: 200px;
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+#email{
+    margin: 20px 10px;
+    width: 200px;
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 15px;
+
+}
+.xc-1{
+    padding: 10px 10px;
+}
+.mass{
+    margin-left: 20px;
+}
+#massage{
+    margin: 20px 10px;
+    width: 450px;
+    height: 120px;
+    border: 2px solid black;
+    border-radius: 15px;
+    
+}
+.in-1{
+    margin-left: 20px;
+}
+#subject{
+    margin: 20px 10px;
+    width: 450px;
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 15px;
+    
+}
+::placeholder{
+    font-size: 20px;
+    padding-left: 10px;
+    color: #000;
+
+}
+
+.bt{
+    width: 100px;
+    height: 35px;
+    font-size: 14px;
+    font-weight: 500;
+    background-color: #f1c874;
+    color:black ;
+    border-radius: 10px;
+}
+.loca{
+    padding-top: 20px;
+}
+
+.loca h3{
+    font-size: 23px;
+    padding: 10px 10px;
+}
+.loca p{
+    font-size: 18px;
+}
+
+.lets{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
 }
