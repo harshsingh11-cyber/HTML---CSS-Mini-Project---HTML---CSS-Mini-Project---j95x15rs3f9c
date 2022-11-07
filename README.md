@@ -63,6 +63,13 @@ To run tests, run the following :-
   it is not need any type of command.
 ```
 
+## Deployment
+
+To deploy this project 
+
+```bash
+  i use netlify for deploying a project.
+```
 ## Screenshots
 ![Screenshot (27)](https://user-images.githubusercontent.com/65847214/200285448-87a3ff78-9089-47e5-8a2f-d24a42d842c1.png)
 ![Screenshot (31)](https://user-images.githubusercontent.com/65847214/200286279-66ed2dbe-c13b-4fd1-ad11-42289bf3bdc2.png)
