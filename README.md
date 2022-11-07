@@ -64,8 +64,13 @@ To run tests, run the following :-
 ```
 
 ## Screenshots
+![Screenshot (27)](https://user-images.githubusercontent.com/65847214/200285448-87a3ff78-9089-47e5-8a2f-d24a42d842c1.png)
+![Screenshot (31)](https://user-images.githubusercontent.com/65847214/200286279-66ed2dbe-c13b-4fd1-ad11-42289bf3bdc2.png)
+![Screenshot (29)](https://user-images.githubusercontent.com/65847214/200286426-3b58da86-3906-41cc-8c18-c19ae8872a22.png)
+![Screenshot (30)](https://user-images.githubusercontent.com/65847214/200286460-62a26c88-a1f5-4ba3-87ba-d96e4a4c6f3b.png)
 
 ## Lessons Learned
+
 
 What did you learn while building this project? What challenges did you face and how did you overcome them?
 
